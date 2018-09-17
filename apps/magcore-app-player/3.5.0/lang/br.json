@@ -1,0 +1,32 @@
+{
+	"meta": {
+		"charset": "utf-8",
+
+		"language": "br",
+		"plural": "(n != 1)"
+	},
+	"data": {
+		"": {
+			"Actions": "Ações",
+			"Aspect": "Aspecto",
+			"Cancel": "Cancelar",
+			"Display": "Exibir",
+			"Exit": "Sair",
+			"List": "Lista",
+			"Mute": "Mudo",
+			"Mute On": "Mudo",
+			"Mute off": "Sair do Mudo",
+			"Off": "Desligado",
+			"Options": "Opções",
+			"PiP": "PiP",
+			"Settings": "Configurações",
+			"Sound": "Sons",
+			"Sound track": "Trilha sonora",
+			"Subtitles": "Legendas",
+			"Track": "Trilha",
+			"Volume level": "Volume",
+			"player": "player",
+			"undefined": "indefinido"
+		}
+	}
+}

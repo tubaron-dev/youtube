@@ -31,7 +31,7 @@
 		"options": [
 			{
 				"name": "language",
-				"desc": "Interface language. Supported list - https://github.com/GeraldBrooks/youtube#supported-interface-languages"
+				"desc": "Interface language. Supported list - https://github.com/tubaron-dev/youtube#supported-interface-languages"
 			},
 			{
 				"name": "regionCode",
@@ -39,7 +39,7 @@
 			},
 			{
 				"name": "config",
-				"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/GeraldBrooks/youtube/master/config.json"
+				"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/tubaron-dev/youtube/master/config.json"
 			}
 		]
 	}
