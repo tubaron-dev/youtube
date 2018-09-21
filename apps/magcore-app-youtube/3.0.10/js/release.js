@@ -26,7 +26,7 @@
                     e.code === c.ok ? l.quit() : e.code !== c.back && e.code !== c.exit || (e.stop = !0, s.hide(), a.focus())
                 }
             }
-        }), s.$body.classList.add("modalExit"), s.$header.innerHTML = gettext("Exit from app?"), s.$content.innerHTML = "", s.$footer.innerHTML = "", s.$footer.appendChild(e = document.createElement("div")), e.innerText = gettext("Ok"), e.className = "btn confirm" + (n ? "" : " old"), s.$footer.appendChild(e = document.createElement("div")), e.className = "btn back" + (n ? "" : " old"), e.innerText = gettext("Cancel"), l.params.search ? l.route(l.pages.search, {
+        }), s.$body.classList.add("modalExit"), s.$header.innerHTML = gettext("Exit from app?"), s.$content.innerHTML = "", s.$footer.innerHTML = "", s.$footer.appendChild(e = document.createElement("div")), e.innerText = gettext("Ok"), e.className = "btn confirm" + (n ? "" : " old"), s.$footer.appendChild(e = document.createElement("div")), e.className = "btn back" + (n ? "" : " old"), e.innerText = gettext("Cancelar"), l.params.search ? l.route(l.pages.search, {
             search: l.params.search
         }) : l.params.channelId ? l.route(l.pages.main, {
             channel: {
@@ -2215,7 +2215,7 @@
                     e.code === c.ok ? (r.settings.language = m.languages[x], x = -1, r.settings.languageOverwrite = 1, r.settings.keyboardLanguage = x, r.reload()) : e.code === c.back && (s.data[s.size - 1].value = x = r.languageIndex, e.stop = !0, a.hide(), y.show(), l.focus(), t = s.$focusItem.index, i = s.viewIndex, s.viewIndex = null, s.renderView(i), s.focusIndex(t))
                 }
             }
-        }), a.$body.classList.add("modalExit"), a.$header.innerHTML = gettext("In order to apply a new language, you must restart the application"), a.$content.innerHTML = "", a.$content.appendChild(o = document.createElement("div")), o.innerText = gettext("Ok"), o.className = "btn confirm" + (b ? " old" : ""), a.$content.appendChild(o = document.createElement("div")), o.className = "btn back" + (b ? " old" : ""), o.innerText = gettext("Cancel"), a.$footer.innerHTML = "", r.activePage.add(a), y.hide(), a.show(), l = r.activePage.activeComponent, a.focus()), !0)
+        }), a.$body.classList.add("modalExit"), a.$header.innerHTML = gettext("In order to apply a new language, you must restart the application"), a.$content.innerHTML = "", a.$content.appendChild(o = document.createElement("div")), o.innerText = gettext("Ok"), o.className = "btn confirm" + (b ? " old" : ""), a.$content.appendChild(o = document.createElement("div")), o.className = "btn back" + (b ? " old" : ""), o.innerText = gettext("Cancelar"), a.$footer.innerHTML = "", r.activePage.add(a), y.hide(), a.show(), l = r.activePage.activeComponent, a.focus()), !0)
     }
     var s, a, o, l, c = i(13),
         r = i(1),
